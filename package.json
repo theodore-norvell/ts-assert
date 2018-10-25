@@ -1,0 +1,32 @@
+{
+  "name": "ts-assert",
+  "version": "1.0.0",
+  "description": "Assert functions for Typescript.",
+  "main": "dist/assert.js",
+  "types": "dist/assert.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -r dist/*",
+    "test": "cd dist && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theodore-norvell/ts-assert.git"
+  },
+  "keywords": [
+    "assertions",
+    "typescript",
+    "assert"
+  ],
+  "author": "Theodore S. Norvell",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/theodore-norvell/ts-assert/issues"
+  },
+  "homepage": "https://github.com/theodore-norvell/ts-assert#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "typescript": "^3.1.3"
+  }
+}

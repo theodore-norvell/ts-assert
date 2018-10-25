@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "target": "es2016",
+        "outDir": "./dist",
+        "declaration": true
+    },
+    "include" : [ "*.ts" ,"test/*.ts" ]
+}
